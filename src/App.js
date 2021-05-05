@@ -100,7 +100,7 @@ function App(){
                 title:"",
                 description:"",
                 price:0,
-                quanity:0,
+                quantity:0,
                 image:""}} />
             <table>
                 <thead>
@@ -115,7 +115,7 @@ function App(){
                         <button onClick = {()=>sort("price")}>{sortDirection.price?"lowest to highest":"highest to lowest"}</button>
                     </th>
                     <th>
-                        <p>Quanity</p>
+                        <p>Quantity</p>
                         <button onClick = {()=>sort("quantity")}>{sortDirection.quantity?"smallest to largest":"largest to smallest"}</button>
                     </th>
                     <th>Image</th>

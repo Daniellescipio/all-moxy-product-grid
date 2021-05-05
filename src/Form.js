@@ -6,7 +6,7 @@ function Form(props){
         title:edits.title,
         description:edits.description,
         price:edits.price,
-        quanity:edits.quantity,
+        quantity:edits.quantity,
         image:edits.image,
         _id:edits._id
     })
@@ -59,8 +59,8 @@ function Form(props){
                 <label>How many will be available</label>
                 <br/>
                 <input
-                name = "quanity" 
-                value = {inputs.quanity}
+                name = "quantity" 
+                value = {inputs.quantity}
                 onChange = {handleChange}
                 type = "text"
                 />

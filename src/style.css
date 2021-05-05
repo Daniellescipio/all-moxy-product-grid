@@ -1,0 +1,14 @@
+.hidden{
+    display:none
+}
+td{
+    width:300px;
+    border: 1px solid black;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
